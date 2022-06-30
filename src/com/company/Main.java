@@ -50,7 +50,7 @@ public class Main {
         int sum = 0;
         int[] arr = new int[] {1, 2, 6, 4, 56 };
         for(int it:arr){
-            sum+=it;
+            sum+= it;
         }
         System.out.println(sum);
 
@@ -64,7 +64,8 @@ public class Main {
             }else if(arr[i] > secondmax){
                 secondmax = arr[i];
             }
-        }System.out.println(secondmax);
+        }
+        System.out.println(secondmax);
 
 
 
